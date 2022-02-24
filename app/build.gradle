@@ -54,5 +54,5 @@ dependencies {
     // LiveData
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1"
 
-    implementation 'io.github.sceneview:arsceneview:0.0.3'
+    implementation 'io.github.sceneview:arsceneview:0.0.4-SNAPSHOT'
 }

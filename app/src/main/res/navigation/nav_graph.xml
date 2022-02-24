@@ -15,5 +15,9 @@
     <fragment
         android:id="@+id/secondFragment"
         android:name="de.morhenn.arsamplecode.SecondFragment"
-        android:label="SecondFragment" />
+        android:label="SecondFragment" >
+        <action
+            android:id="@+id/action_secondFragment_to_firstFragment"
+            app:destination="@id/firstFragment" />
+    </fragment>
 </navigation>
