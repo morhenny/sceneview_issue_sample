@@ -51,6 +51,8 @@ class SecondFragment : Fragment() {
             node.anchor = hitResult.createAnchor()
             node.setRenderable(cubeModel)
             sceneView.addChild(node)
+
+            sceneView.session?.resolveCloudAnchor("CLOUD_ANCHOR_ID_HERE")
         }
     }
 
