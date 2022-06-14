@@ -10,10 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ARSampleCode">
 
-        <meta-data
-            android:name="com.google.android.ar.API_KEY"
-            android:value="CLOUD_ANCHOR_API_KEY_HERE" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
